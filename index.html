@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planner</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <h1>Task List</h1>
+    </header>
+    <main>
+        <div class="wrapper">
+            <h2>To Do List</h2>
+            <div class="inputfield">
+                <input type="text" placeholder="Add your new task" id="inputBox">
+                <button id="addBtn"><i class="fas fa-plus"></i></button>
+            </div>
+            <ul class="todolist" id="todoList">
+                <!-- Info comes from localstorage -->
+            </ul>
+            <div class="tasksign">
+                <p>You have <span class="pendingnumb" id="pendingNumb"></span> pending tasks</p>
+                <button id="deleteAll">Clear All</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Get your shit together</p>
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+</html>
