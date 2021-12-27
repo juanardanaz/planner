@@ -175,3 +175,21 @@ footer p {
     color: #6B7280;
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 420px) {
+    .wrapper{
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .wrapper{
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper{
+        max-width: 280px;
+    }
+}
